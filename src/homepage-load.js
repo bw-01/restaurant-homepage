@@ -1,6 +1,6 @@
 import homepageImage from "./images/homepage.jpg";
 
-export function pageLoad() {
+export function homepageLoad() {
   const contentDiv = document.getElementById("content");
 
   const title = document.createElement("h1");
@@ -12,8 +12,7 @@ export function pageLoad() {
   welcome.textContent =
     "Welcome to B's Place, where home-style comfort meets delicious cuisine! Nestled in the heart \
         of the community, B's Place offers a warm and inviting atmosphere that feels just like \
-        coming home. Our menu is filled with classic dishes made from fresh, locally sourced \
-        ingredients, all prepared with a loving touch. Whether you're gathering with family or \
+        coming home. Whether you're gathering with family or \
         catching up with friends, our friendly staff is dedicated to making your dining experience \
         truly special. Come and see why B's Place is the go-to spot for hearty meals and heartfelt \
         hospitality!";

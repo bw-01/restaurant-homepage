@@ -1,6 +1,6 @@
 # B's Place Restaurant Website
 
-An example restaurant website created to practice DOM manipulation by dynamically rendering the site using JavaScript.
+An example restaurant website created to practice DOM manipulation by dynamically rendering a multi-page site using JavaScript.
 
 ## Image References
 
