@@ -7,32 +7,82 @@
 html,
 body {
   height: 100%;
-  font-family: Arial, sans-serif;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
+  font-family: "Roboto";
+  background-color: #f4f4f4;
+  color: #333;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav button {
+  background-color: #fff;
+  border: 2px solid #333;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #ddd;
+}
+
+#content {
+  max-width: 900px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 0px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
 }
 
 img {
-  display: inline-block;
-  max-width: 80%;
-}
-
-body * {
-    padding: 10px;
+  display: block;
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 20px;
 }
 
 .hours {
   white-space: pre-line;
   line-height: 1.6;
+  margin-bottom: 20px;
 }

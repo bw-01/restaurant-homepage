@@ -13,7 +13,7 @@ export function homepageLoad() {
     "Welcome to B's Place, where home-style comfort meets delicious cuisine! Nestled in the heart \
         of the community, B's Place offers a warm and inviting atmosphere that feels just like \
         coming home. Whether you're gathering with family or \
-        catching up with friends, our friendly staff is dedicated to making your dining experience \
+        catching up with friends, our friendly staff are dedicated to making your dining experience \
         truly special. Come and see why B's Place is the go-to spot for hearty meals and heartfelt \
         hospitality!";
   welcome.className = "welcome";
